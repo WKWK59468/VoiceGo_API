@@ -1,6 +1,6 @@
-let express = require('express');
-let http = require('http');
-let index = require('./routes/index');
+const express = require('express');
+const http = require('http');
+const index = require('./routes/index');
 
 const app = express();
 
