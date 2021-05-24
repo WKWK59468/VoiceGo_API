@@ -75,8 +75,7 @@ class UserController {
             }
 
             // response 被更新的資源欄位，但因 request 主體的欄位不包含 id，因此需自行加入
-            req.body.id = req.params.id;
-            res.json([req.body]);
+            res.json(req.body);
         });
     }
 }
