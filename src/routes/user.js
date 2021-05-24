@@ -9,9 +9,6 @@ router.route('/')
 router.route('/login')
     .get(UserController.getLogin); //找單一個使用者
 
-// router.route('/search')
-//     .get(UserController.getOneUser);
-
 router.route('/add')
     .post(UserController.addUser); //註冊使用者
 
